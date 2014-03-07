@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* 
+
+CSS Document 
+Rob Denton - Scripps Howard Foundation Wire
+August 14, 2013
+
+*/
+
+/* 
+
+main map 
+
+*/
+html, body, #googft-mapCanvas {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*
+
+Hawaii 
+
+*/
+#googft-mapCanvasHawaii {
+  border:1px solid #000;
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  left:100px;
+  margin: 0;
+  padding: 0;
+  z-index: 99999999999;
+  bottom:5%;
+}
+
+/* 
+
+Alaska 
+
+*/
+#googft-mapCanvasAlaska {
+  border:1px solid #000;
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  z-index: 99999999999;
+  bottom:5%;
+  left:210px;
+}
+
+/* 
+
+legend 
+
+*/
+#legend {
+  position:absolute;
+  top:5%;
+  right:5px;
+  font-family:News Cycle, Georgia, serif;
+  font-size:.75em;
+  background:#1111118;
+  width:175px;
+  height:85%;
+  border:black;
+  border-width:1px;
+  border-style:solid;
+}
+.legend_item {
+  width:20px;
+  height:10px;
+  margin-top:10px;
+  float:left;
+  border:1px;
+  border-style:solid;
+  margin:3px;
+}
+.statename {
+  font-size:1.5em;
+}
+#statebox {}
+
+/*
+
+main div
+
+*/
+#mapdiv{
+  width:100%;
+  height:100%;
+}

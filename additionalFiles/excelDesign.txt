@@ -1,0 +1,49 @@
+
+
+<h1>Wyoming</h1><p>Total revenue: <b>1647905000</b></p><p>Students: <b>88427</b></p><p>Total funding per student: <b>16878</b></p><p>Percent federal funding: <b>0.09</b></p><p>Percent state funding: <b>0.53</b></p><p>Percent local funding: <b>0.37</b></p>
+
+
+=TEXT(<h1>)&A2&TEXT(</h1><p>Total revenue: <b>)&$B2&TEXT(</b></p><p>Students: <b>)&$C2&TEXT(</b></p><p>Total funding per student: <b>)&$D2%TEXT(</b></p><p>Percent federal funding: <b>)&$E2&TEXT(</b></p><p>Percent state funding: <b>)&$F2&TEXT(</b></p><p>Percent local funding: <b>)&$G2&TEXT(</b></p>)
+
+=TEXT("<h1>")&A2&TEXT("</h1><p>Total revenue: <b>")&$B2&TEXT("</b></p><p>Students: <b>")&$C2&TEXT("</b></p><p>Total funding per student: <b>")&$D2%TEXT("</b></p><p>Percent federal funding: <b>")&$E2&TEXT("</b></p><p>Percent state funding: <b>")&$F2&TEXT("</b></p><p>Percent local funding: <b>")&$G2&TEXT("</b></p>")
+
+=CONCATENATE(TEXT(E4,"##%")&"d"&TEXT(B4,"$###,###,###,###"))
+
+
+
+		  <h1>Massachusetts</h1>
+          <p>Total revenue: <b>$00,000,000,000</b></p>
+          <p>Students: <b>00,000,000</b></p>
+          <p>Total funding per student: <b>$00,000</b></p>
+          <p>Percent federal funding: <b>00%</b></p>
+          <p>Percent state funding: <b>00%</b></p>
+          <p>Percent local funding: <b>00%</b></p>
+
+
+
+
+
+          <h1>Wyoming</h1>
+          <p>Total revenue: <b>1647905000</b></p>
+          <p>Students: <b>88427</b></p>
+          <p>Total funding per student: <b>16878</b></p>
+          <p>Percent federal funding: <b>0.09</b></p>
+          <p>Percent state funding: <b>0.53</b></p>
+          <p>Percent local funding: <b>0.37</b></p>
+
+          <h1>Alabama</h1>
+          <p>Total revenue: <b>$7,386,471,000</b></p>
+          <p>Students: <b>755,552</b></p>
+          <p>Total funding per student: <b>$8,121</b></p>
+          <p>Percent federal funding: <b>17%</b></p>
+          <p>Percent state funding: <b>52%</b></p>
+          <p>Percent local funding: <b>31%</b></p>"
+
+
+<h1>Wyoming</h1>
+<p>Total revenue: <b>$1,647,905,000</b></p>
+<p>Students: <b>88,427</b></p>
+<p>Total funding per student: <b>$16,878</b></p>
+<p>Percent federal funding: <b>9%</b></p>
+<p>Percent state funding: <b>53%</b></p>
+<p>Percent local funding: <b>37%</b></p>
